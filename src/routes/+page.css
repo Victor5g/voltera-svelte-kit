@@ -1,0 +1,103 @@
+body {
+  background: linear-gradient(300deg, rgba(21, 88, 41, 0.91), rgba(66, 166, 95, 0.87), rgba(82, 176, 108, 0.87), rgba(21, 88, 41, 0.91));
+  background-size: 800% 800%;
+  animation: gradient_move 20s ease infinite;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #F5F7FA;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradient_move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+main {
+  background: #F5F7FA;
+  max-width: 450px;
+  /*margin: 5rem auto;*/
+  padding: 2.5rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(11, 24, 67, 0.2),
+  0 4px 10px rgba(11, 24, 67, 0.1);
+  text-align: center;
+  color: #0B1843;
+}
+
+.header-icon {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 64px; /* ou o tamanho que quiser */
+  height: auto;
+  opacity: 0.9;
+}
+
+strong {
+  color: #3E3E9B;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 1.75rem;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 0.85rem 1.25rem;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  font-size: 1.1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #6b73ff;
+  box-shadow: 0 0 8px #6b73ffaa;
+}
+
+p {
+  font-size: 1.15rem;
+  margin-top: 2rem;
+  color: #555;
+}
+
+strong {
+  color: #6b73ff;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  main {
+    margin: 2rem 1rem;
+    padding: 1.5rem 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
