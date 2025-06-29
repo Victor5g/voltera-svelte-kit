@@ -21,6 +21,11 @@ Este é um projeto que utiliza a API gratuita [agify.io](https://agify.io) para 
 - Após uma pequena pausa (debounce), o sistema consulta a API e exibe a idade estimada.
 - A URL é atualizada com `?name=SeuNome`, permitindo compartilhamento direto.
 
+## 🖼 Demo 
+<p>
+  <img src='https://github.com/user-attachments/assets/8ed9047c-5fd5-4acf-84dc-2e353f311fc0' width='500' />
+</p>
+
 ## 🛠 Tecnologias
 
 - [SvelteKit](https://kit.svelte.dev/)
